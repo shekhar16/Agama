@@ -1,1 +1,19 @@
-{}
+{
+    "username-pwd-Auth": {
+        "projectName": "username-pwd-Auth",
+        "description": "username password Auth",
+        "type": "community",
+        "author": "shekhar16",
+        "version": "0.0.1",
+        "authorWebsite": "https://github.com/shekhar16/Agama",
+        "githubUri": "https://github.com/shekhar16/Agama",
+        "license": "apache-2.0",
+        "lastUpdated": "1705137387207",
+        "tags": [
+            "authentication",
+            "jans"
+        ],
+        "noDirectLaunch": [],
+        "configs": {}
+    }
+}
