@@ -1,0 +1,35 @@
+[
+  {
+    "id": "Agama-start-Flow-7e762fdc-a17a-4912-b40f-3d090fc8bdf5",
+    "type": "start",
+    "sourcePosition": "right",
+    "data": {
+      "id": "Agama-start-Flow-7e762fdc-a17a-4912-b40f-3d090fc8bdf5",
+      "type": "Agama-start-Flow",
+      "position": {
+        "x": 30,
+        "y": 30
+      },
+      "inRepeatBlock": false,
+      "agamaData": {
+        "id": "Agama-start-Flow-7e762fdc-a17a-4912-b40f-3d090fc8bdf5",
+        "type": "Agama-start-Flow",
+        "displayName": "pwd Auth",
+        "hasComment": true,
+        "comment": "",
+        "isTopLevelFlow": true,
+        "basepath": "",
+        "configParams": "{}",
+        "nodeIcon": "material-symbols:line-start-square",
+        "timeout": "",
+        "inputs": "",
+        "configs": "",
+        "flowname": "co.gluupwd"
+      }
+    },
+    "position": {
+      "x": 30,
+      "y": 30
+    }
+  }
+]
