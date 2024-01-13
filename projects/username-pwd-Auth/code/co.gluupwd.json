@@ -33,9 +33,10 @@
 					"templatePath": "login.ftlh",
 					"asssignedVariableName": "creds",
 					"arguments": "authResult"
-				}
+				},
+				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 925,
@@ -74,7 +75,8 @@
 					"nodeIcon": "material-symbols:event-repeat-outline-rounded",
 					"maxIteration": "3",
 					"maxIterationVariableName": ""
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -119,7 +121,8 @@
 						}
 					],
 					"nodeIcon": "material-symbols:equal"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -166,7 +169,8 @@
 					],
 					"nodeIcon": "material-symbols:code",
 					"asssignedVariableName": "cdiUtil"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -211,7 +215,8 @@
 					"arguments": [],
 					"nodeIcon": "material-symbols:code",
 					"asssignedVariableName": "authService"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -230,8 +235,8 @@
 				"id": "Agama-start-Flow-984f7c62-d441-4366-81ee-2cbdc97b05cc",
 				"type": "Agama-start-Flow",
 				"position": {
-					"x": 30,
-					"y": 30
+					"x": 8.781758540122723,
+					"y": 41.23318665522925
 				},
 				"inRepeatBlock": false,
 				"agamaData": {
@@ -248,17 +253,17 @@
 					"inputs": "",
 					"configs": ""
 				},
-				"skake": false
+				"skake": true
 			},
 			"position": {
-				"x": 30,
-				"y": 30
+				"x": 8.781758540122723,
+				"y": 41.23318665522925
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
-				"x": 30,
-				"y": 30
+				"x": 8.781758540122723,
+				"y": 41.23318665522925
 			}
 		}
 	],
@@ -351,8 +356,8 @@
 		}
 	],
 	"viewport": {
-		"x": -21.540582826511468,
-		"y": 52.75562383892793,
-		"zoom": 0.872316977102852
+		"x": 27.026189699280735,
+		"y": 55.945411132569845,
+		"zoom": 0.8011974051735722
 	}
 }
