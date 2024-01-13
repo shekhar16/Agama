@@ -14,7 +14,9 @@
             "jans"
         ],
         "noDirectLaunch": [],
-        "configs": {},
+        "configs": {
+            "co.acme.password": {}
+        },
         "name": "username-pwd-Auth"
     }
 }
