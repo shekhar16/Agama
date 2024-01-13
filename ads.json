@@ -14,9 +14,7 @@
             "jans"
         ],
         "noDirectLaunch": [],
-        "configs": {
-            "co.gluupwd": {}
-        },
+        "configs": {},
         "name": "username-pwd-Auth"
     }
 }
