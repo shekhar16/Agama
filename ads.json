@@ -16,7 +16,8 @@
         "noDirectLaunch": [],
         "configs": {
             "co.acme.password": {},
-            "": {}
+            "": {},
+            "co.acme.password.new": {}
         },
         "name": "username-pwd-Auth"
     }
