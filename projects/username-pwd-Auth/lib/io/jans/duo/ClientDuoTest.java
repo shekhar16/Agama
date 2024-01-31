@@ -1,4 +1,4 @@
-package com.duosecurity;
+package io.jans.duo;
 
 import com.duosecurity.exception.DuoException;
 
