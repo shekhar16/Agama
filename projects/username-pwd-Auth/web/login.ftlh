@@ -21,7 +21,6 @@
 	  <div>
 		Username: 
 		<input type="text" name="username" id="username" value="${uid!}" required="" class="form-control">
-		
 	  </div>
 	  <div>
 		Password: 
