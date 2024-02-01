@@ -17,7 +17,8 @@
         "configs": {
             "co.acme.password": {},
             "": {},
-            "co.acme.password.new": {}
+            "co.acme.password.new": {},
+            "co.acme.password_copy": {}
         },
         "name": "username-pwd-Auth"
     }
