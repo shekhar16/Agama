@@ -1,5 +1,6 @@
 package io.jans.duo;
 
+import com.duosecurity.Client;
 import com.duosecurity.exception.DuoException;
 
 import java.util.HashMap;
