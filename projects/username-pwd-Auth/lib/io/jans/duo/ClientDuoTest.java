@@ -8,9 +8,9 @@ import java.util.Map;
 
 class ClientDuoTest implements Serializable{
 
-    private Client duoClient;
+    private static Client duoClient;
 
-    public String  duoValidate() throws DuoException {
+    public static String  duoValidate() throws DuoException {
         Map<String, String> stateMap = new HashMap<>();;
         String CLIENT_ID = "DI1QCWC6TY96FLSPDEKE";
         String CLIENT_SECRET = "sPqo9w4BgBOJexIwJd105ZEzaLeoqEB2HaunMKLF";
