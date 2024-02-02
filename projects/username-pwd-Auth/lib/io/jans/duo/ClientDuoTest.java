@@ -6,7 +6,7 @@ import com.duosecurity.exception.DuoException;
 import java.util.HashMap;
 import java.util.Map;
 
-class ClientDuoTest implements Serializable{
+class ClientDuoTest{
 
     private static Client duoClient;
 
