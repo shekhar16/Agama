@@ -23,7 +23,9 @@
 
 <script>
 	function myFunction() {
-	  location.replace(${authUrl.url})
+	  location.replace(${
+					   authUrl.url}
+	)
 	}
   </script>
 </html>
