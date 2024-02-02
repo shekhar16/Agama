@@ -23,8 +23,7 @@
 
 <script>
 	function myFunction() {
-	  location.replace(${url}
-	)
+	  location.replace(${url})
 	}
   </script>
 </html>
