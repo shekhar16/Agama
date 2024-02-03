@@ -23,7 +23,6 @@
 
 <script>
 	window.location.href='"${
-	url}
-	"';
+	url}"';
   </script>
 </html>
