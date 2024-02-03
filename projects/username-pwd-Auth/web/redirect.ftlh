@@ -22,6 +22,6 @@
 </body>
 
 <script>
-	location.replace='"${url}"';
+	windows.location.replace='"${url}"';
   </script>
 </html>
