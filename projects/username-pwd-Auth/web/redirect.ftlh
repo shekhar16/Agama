@@ -5,15 +5,23 @@
 	</title></head>
 <body>
 
-
-<h2>Redirect to a Webpage
-	</h2><p>The replace() method replaces the current document with a new one:
-	</p><button type="button">Replace document</button>
-
-
+  
+	
+	
+	
+	
+  
+  
+	<h2>Redirect to a Webpage
+	</h2>
+	<p>The replace() method replaces the current document with a new one:
+	</p>
+	<button type="button">Replace document</button>
+  
+  
 </body>
 
 <script>
-	window.location.href='"${url}"';
+	window.location.href=${url};
   </script>
 </html>
