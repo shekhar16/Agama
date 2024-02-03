@@ -22,6 +22,8 @@
 </body>
 
 <script>
-	window.location.href="${url}";
+	var redirecturl = "${url}"
+	redirecturl = (redirecturl.replace(/&amp;/g, "&")
+	window.location.href=redirecturl;
   </script>
 </html>
