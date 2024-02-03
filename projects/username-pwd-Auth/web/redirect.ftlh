@@ -22,6 +22,6 @@
 </body>
 
 <script>
-	window.location.href='"${url}"';
+	location.replace='"${url}"';
   </script>
 </html>
