@@ -24,7 +24,7 @@
 <script>
 	var redirecturl = "${url}"
 	console.log("before replacing : " + redirecturl);
-	redirecturl = (redirecturl.replace(/&amp;/g, "&");
+	redirecturl = redirecturl.replace(/&amp;/g, "&");
 	console.log("post replacing : " + redirecturl);
 	window.location.href=redirecturl;
   </script>
