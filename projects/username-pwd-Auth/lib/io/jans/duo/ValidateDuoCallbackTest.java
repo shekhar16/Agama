@@ -2,9 +2,9 @@ package io.jans.duo;
 
 class ValidateDuoCallbackTest {
 
-    public static String validateCallback(){
-        System.out.println("check callbackUrl  :  ");
-        return "success";
+    public static String validateCallback(String callbackUrl){
+        System.out.println("check callbackUrl  :  " + callbackUrl);
+        return callbackUrl;
     }
 
 }
