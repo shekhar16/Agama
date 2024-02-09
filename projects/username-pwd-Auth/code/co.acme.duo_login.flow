@@ -15,8 +15,9 @@ Repeat 3 times max
      authResult.uid = creds.username
      // check auth response
      When authResult.success is true
-          clientDuoTest = Call io.jans.duo.ClientDuoTest#new 
+          it_pbyyl = {success:true, data:  {userId: authResult.uid }}
+          Finish it_pbyyl
      // check logs after when condition
      Log "@info " post when log
-it_bpyjw = {success:false, error: "auth failed"}
-Finish it_bpyjw
+it_tmhdn = {success:false, error: "auth failed"}
+Finish it_tmhdn
