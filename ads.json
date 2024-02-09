@@ -18,7 +18,8 @@
             "co.acme.password": {},
             "": {},
             "co.acme.password.new": {},
-            "co.acme.password_copy": {}
+            "co.acme.password_copy": {},
+            "co.acme.duo_login": {}
         },
         "name": "username-pwd-Auth"
     }
