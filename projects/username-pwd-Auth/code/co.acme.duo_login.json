@@ -1,0 +1,35 @@
+[
+  {
+    "id": "Agama-start-Flow-ede38143-8e46-408f-a0d6-f53a3f8c6f08",
+    "type": "start",
+    "sourcePosition": "right",
+    "data": {
+      "id": "Agama-start-Flow-ede38143-8e46-408f-a0d6-f53a3f8c6f08",
+      "type": "Agama-start-Flow",
+      "position": {
+        "x": 30,
+        "y": 30
+      },
+      "inRepeatBlock": false,
+      "agamaData": {
+        "id": "Agama-start-Flow-ede38143-8e46-408f-a0d6-f53a3f8c6f08",
+        "type": "Agama-start-Flow",
+        "displayName": "Duo login",
+        "hasComment": true,
+        "comment": "",
+        "isTopLevelFlow": true,
+        "basepath": "",
+        "configParams": "{}",
+        "nodeIcon": "material-symbols:line-start-square",
+        "timeout": "",
+        "inputs": "",
+        "configs": "",
+        "flowname": "co.acme.duo_login"
+      }
+    },
+    "position": {
+      "x": 30,
+      "y": 30
+    }
+  }
+]
