@@ -18,12 +18,12 @@ Repeat 3 times max
           authUrl = {}
           authUrl.url | E = Call io.jans.duo.ClientDuoTest#duoValidate 
           Log "@info check" E  authUrl
-          callbackurl = RFAC authUrl.url
+          callbackResult = RFAC authUrl.url
           Log "@info callbackResult " callbackResult
           callbackState = {}
           callbackState.data | calbackE = Call io.jans.duo.ValidateDuoCallbackTest#validateCallback callbackResult
           callbackState.data = RRF "success.flth" 
      // check logs after when condition
      Log "@info " post when log
-it_vfjmm = {success:false, error: "auth failed"}
-Finish it_vfjmm
+it_nzzft = {success:false, error: "auth failed"}
+Finish it_nzzft
