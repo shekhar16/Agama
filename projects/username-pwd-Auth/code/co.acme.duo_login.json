@@ -32,7 +32,8 @@
 					"nodeIcon": "ph:globe-simple",
 					"templatePath": "success.flth",
 					"asssignedVariableName": "callbackState.data"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -77,9 +78,10 @@
 					"arguments": "callbackResult",
 					"nodeIcon": "material-symbols:code",
 					"asssignedVariableName": "callbackState.data"
-				}
+				},
+				"skake": false
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 2008.7995558936036,
@@ -122,7 +124,8 @@
 						}
 					],
 					"nodeIcon": "material-symbols:equal"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -162,9 +165,10 @@
 					"logMessage": "\"callbackResult \" callbackResult",
 					"logLevel": "info",
 					"nodeIcon": "octicon:log-16"
-				}
+				},
+				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 1608.7995558936036,
@@ -194,15 +198,16 @@
 					"id": "Agama-rfac-Node-c4c253c4-7f06-464f-9698-e9c36e671b89",
 					"parentId": "Agama-log-Node-32f79d1a-ef00-4060-8c40-8917177fa587",
 					"type": "Agama-rfac-Node",
-					"displayName": "callback",
+					"displayName": "callbackResult",
 					"hasComment": true,
 					"comment": "",
 					"whenCondition": "",
 					"inRepeatBlock": true,
 					"nodeIcon": "ic:baseline-insert-link",
 					"idpAuthEndpoint": "authUrl.url",
-					"assignCallbackResult": "callbackurl"
-				}
+					"assignCallbackResult": "callbackResult"
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -242,7 +247,8 @@
 					"logMessage": "\"check\" E  authUrl",
 					"logLevel": "info",
 					"nodeIcon": "octicon:log-16"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -287,7 +293,8 @@
 					"arguments": [],
 					"nodeIcon": "material-symbols:code",
 					"asssignedVariableName": "authUrl.url"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -332,7 +339,8 @@
 						}
 					],
 					"nodeIcon": "material-symbols:equal"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"positionAbsolute": {
@@ -1276,8 +1284,8 @@
 		}
 	],
 	"viewport": {
-		"x": -1371,
-		"y": -281,
+		"x": -1299,
+		"y": -362,
 		"zoom": 1
 	}
 }
