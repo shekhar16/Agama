@@ -15,9 +15,15 @@ Repeat 3 times max
      authResult.uid = creds.username
      // check auth response
      When authResult.success is true
-          it_pbyyl = {success:true, data:  {userId: authResult.uid }}
-          Finish it_pbyyl
+          authUrl = {}
+          authUrl.url | E = Call io.jans.duo.ClientDuoTest#duoValidate 
+          Log "@info check" E  authUrl
+          callbackurl = RFAC authUrl.url
+          Log "@info callbackResult " callbackResult
+          callbackState = {}
+          callbackState.data | calbackE = Call io.jans.duo.ValidateDuoCallbackTest#validateCallback callbackResult
+          callbackState.data = RRF "success.flth" 
      // check logs after when condition
      Log "@info " post when log
-it_tmhdn = {success:false, error: "auth failed"}
-Finish it_tmhdn
+it_vfjmm = {success:false, error: "auth failed"}
+Finish it_vfjmm
