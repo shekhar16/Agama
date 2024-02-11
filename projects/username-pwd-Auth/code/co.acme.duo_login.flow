@@ -22,8 +22,9 @@ Repeat 3 times max
           Log "@info callbackResult " callbackResult
           callbackState = {}
           callbackState.data | calbackE = Call io.jans.duo.ValidateDuoCallbackTest#validateCallback callbackResult
+          Log "@info  callback data " callbackState.data
           callbackState.data = RRF "success.flth" 
      // check logs after when condition
      Log "@info " post when log
-it_nzzft = {success:false, error: "auth failed"}
-Finish it_nzzft
+it_wttvz = {success:false, error: "auth failed"}
+Finish it_wttvz
