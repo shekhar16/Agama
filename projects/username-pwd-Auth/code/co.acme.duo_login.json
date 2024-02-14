@@ -1021,7 +1021,7 @@
 						{
 							"variable": "callbackState.data",
 							"operator": "is not",
-							"dataValue": "false",
+							"dataValue": "\"false\"",
 							"combinator": "none"
 						}
 					],
@@ -1034,7 +1034,7 @@
 				],
 				"skake": false
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 2408.7995558936036,
@@ -1478,8 +1478,8 @@
 		}
 	],
 	"viewport": {
-		"x": 10,
-		"y": 15,
+		"x": -1824,
+		"y": -381,
 		"zoom": 1
 	}
 }
