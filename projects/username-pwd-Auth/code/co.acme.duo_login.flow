@@ -21,10 +21,13 @@ Repeat 3 times max
           callbackResult = RFAC authUrl.url
           Log "@info callbackResult " callbackResult
           callbackState = {}
-          callbackState.data | calbackE = Call io.jans.duo.ValidateDuoCallbackTest#validateCallback callbackResult
+          callbackState.data | calbackE = Call io.jans.duo.ValidateDuoCallbackTest#validateCallback callbackResult creds.username
           Log "@info  callback data " callbackState.data
-          callbackState.data = RRF "success.flth" 
+          When callbackState.data is not false
+               it_grehy = {success:true, data:  {userId: authResult.uid, details: callbackState.data}}
+               Finish it_grehy
+          Log "@info  when callbackState.data " callbackState.data
      // check logs after when condition
      Log "@info " post when log
-it_wttvz = {success:false, error: "auth failed"}
-Finish it_wttvz
+it_fxkal = {success:false, error: "auth failed"}
+Finish it_fxkal
