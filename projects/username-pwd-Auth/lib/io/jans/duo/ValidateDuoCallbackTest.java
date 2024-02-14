@@ -48,7 +48,4 @@ class ValidateDuoCallbackTest {
             throw new DuoException("Could not convert token to JSON");
         }
     }
-
-}
-
 }
