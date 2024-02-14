@@ -33,9 +33,10 @@
 					"logMessage": "\" when callbackState.data \" callbackState.data",
 					"logLevel": "info",
 					"nodeIcon": "octicon:log-16"
-				}
+				},
+				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 2658.7995558936036,
@@ -78,7 +79,8 @@
 					"returnVariable": "{ success:true, data: {userId: authResult.uid, details: callbackState.data}}",
 					"nodeIcon": "material-symbols:line-end-square-rounded",
 					"displayName": "success duo login"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -129,7 +131,7 @@
 				},
 				"skake": false
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 2008.7995558936036,
@@ -1029,7 +1031,8 @@
 				"handles": [
 					"Agama-when-Node-3d31db81-5681-46b2-97c0-8bccbc4e11af.FAILURE",
 					"Agama-when-Node-3d31db81-5681-46b2-97c0-8bccbc4e11af.SUCCESS"
-				]
+				],
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -1475,8 +1478,8 @@
 		}
 	],
 	"viewport": {
-		"x": -560.8116388310052,
-		"y": -35.41307563783937,
-		"zoom": 0.5688238643518808
+		"x": -1842,
+		"y": -401,
+		"zoom": 1
 	}
 }
