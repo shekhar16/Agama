@@ -24,10 +24,9 @@ Repeat 3 times max
           callbackState.data | calbackE = Call io.jans.duo.ValidateDuoCallbackTest#validateCallback callbackResult creds.username
           Log "@info  callback data " callbackState.data calbackE
           When callbackState.data is not "false"
-               it_vwfpx = {success:true, data:  {userId: authResult.uid, details: callbackState.data}}
-               Finish it_vwfpx
+               Finish callbackState.data
           Log "@info  when callbackState.data " callbackState.data
      // check logs after when condition
      Log "@info " post when log
-it_dhjya = {success:false, error: "auth failed"}
-Finish it_dhjya
+it_rhbwi = {success:false, error: "auth failed"}
+Finish it_rhbwi
