@@ -43,7 +43,7 @@ class ValidateDuoCallbackTest {
     private static String tokenToJson(Token token) throws DuoException {
         ObjectMapper objectMapper = new ObjectMapper();
         try {
-            return objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(token);
+            return objectMapper.writer().writeValueAsString(token);
         } catch (JsonProcessingException jpe) {
             throw new DuoException("Could not convert token to JSON");
         }
