@@ -17,7 +17,7 @@ class ValidateDuoCallbackTest {
         String CLIENT_ID = "DI1QCWC6TY96FLSPDEKE";
         String CLIENT_SECRET = "sPqo9w4BgBOJexIwJd105ZEzaLeoqEB2HaunMKLF";
         String API_HOST = "api-de9a3a97.duosecurity.com";
-        String HTTPS_REDIRECT_URI = "https://shekhar16-immortal-moray.gluu.info/jans-auth/fl/callback";
+        String HTTPS_REDIRECT_URI = "https://shekhar16-prepared-donkey.gluu.info/jans-auth/fl/callback";
         this.duoClient = new Client.Builder(CLIENT_ID, CLIENT_SECRET, API_HOST, HTTPS_REDIRECT_URI).build();
 
         System.out.println("check callbackUrl  :  " + callbackUrl);
