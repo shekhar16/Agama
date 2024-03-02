@@ -116,7 +116,7 @@
 					"displayName": "validate callback",
 					"hasComment": true,
 					"comment": "",
-					"javaClassName": "io.jans.duo.ValidateDuoCallbackTest",
+					"javaClassName": "org.gluu.agama.duo.DuoClientService",
 					"javaMethodName": "validateCallback",
 					"javaVariableName": "",
 					"exceptionVariableField": "calbackE",
@@ -331,10 +331,10 @@
 					"id": "Agama-call-Node-51ac7c35-bb9c-4656-b81b-0e37d0a0b3ad",
 					"parentId": "Agama-assignment-Node-215cbecf-d0d3-46ff-bb77-d41da287db1a",
 					"type": "Agama-call-Node",
-					"displayName": "create ClientDuoTest instance",
+					"displayName": "create DuoClientService instance",
 					"hasComment": true,
 					"comment": "",
-					"javaClassName": "io.jans.duo.ClientDuoTest",
+					"javaClassName": "org.gluu.agama.duo.DuoClientService",
 					"javaMethodName": "duoValidate",
 					"javaVariableName": "",
 					"exceptionVariableField": "E",
@@ -1479,8 +1479,8 @@
 		}
 	],
 	"viewport": {
-		"x": -1977,
-		"y": -398,
+		"x": -1858,
+		"y": -361,
 		"zoom": 1
 	}
 }
