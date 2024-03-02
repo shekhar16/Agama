@@ -76,14 +76,14 @@
 					"hasComment": true,
 					"comment": "",
 					"flowfilename": "",
-					"returnVariable": "callbackState.data",
+					"returnVariable": "{ success:true, data: {userId: authResult.uid }}",
 					"nodeIcon": "material-symbols:line-end-square-rounded",
 					"displayName": "success duo login",
-					"finishMode": "withVariable"
+					"finishMode": "withSuccess"
 				},
 				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 2521.7995558936036,
@@ -1479,8 +1479,8 @@
 		}
 	],
 	"viewport": {
-		"x": -1858,
-		"y": -361,
+		"x": -1874,
+		"y": -458,
 		"zoom": 1
 	}
 }
