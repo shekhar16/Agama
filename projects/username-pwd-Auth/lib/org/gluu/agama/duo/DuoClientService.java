@@ -1,4 +1,4 @@
-package io.jans.duo;
+package org.gluu.agama.duo;
 
 import com.duosecurity.Client;
 import com.duosecurity.exception.DuoException;
