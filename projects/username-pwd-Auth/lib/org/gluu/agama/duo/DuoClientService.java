@@ -13,7 +13,8 @@ class DuoClientService{
 
     private static Client duoClient;
 
-    public static String  duoValidate() throws DuoException {
+    public static String  duoValidate(String clientId) throws DuoException {
+        System.out.println("passed from assignment clientId  :  " + clientId);
         Map<String, String> stateMap = new HashMap<>();;
         String CLIENT_ID = "DI1QCWC6TY96FLSPDEKE";
         String CLIENT_SECRET = "sPqo9w4BgBOJexIwJd105ZEzaLeoqEB2HaunMKLF";
