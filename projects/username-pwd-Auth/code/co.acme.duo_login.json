@@ -264,7 +264,7 @@
 				},
 				"skake": false
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 1408.7995558936036,
@@ -345,7 +345,9 @@
 					"callType": "Call static method",
 					"whenCondition": "",
 					"inRepeatBlock": true,
-					"arguments": [],
+					"arguments": [
+						"clientId"
+					],
 					"nodeIcon": "material-symbols:code",
 					"asssignedVariableName": "authUrl.url"
 				},
@@ -391,6 +393,11 @@
 							"variableTypeCheck": false,
 							"assignmentExpression": "{}",
 							"assignedVariableName": "authUrl"
+						},
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "conf.clientId",
+							"assignedVariableName": "clientId"
 						}
 					],
 					"nodeIcon": "material-symbols:equal"
@@ -1514,8 +1521,8 @@
 		}
 	],
 	"viewport": {
-		"x": -1678,
-		"y": -358,
-		"zoom": 1
+		"x": -721.6457321303814,
+		"y": -67.99651719145459,
+		"zoom": 0.9511841413161729
 	}
 }
