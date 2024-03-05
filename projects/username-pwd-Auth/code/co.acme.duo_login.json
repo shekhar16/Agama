@@ -942,7 +942,7 @@
 					"comment": "",
 					"isTopLevelFlow": true,
 					"basepath": "",
-					"configParams": "{\n  \"configs\": {\n    \"co.acme.duo_login\": {\n      \"clientId\": \"DI1QCWC6TY96FLSPDEKE\",\n      \"clientSecret\": \"sPqo9w4BgBOJexIwJd105ZEzaLeoqEB2HaunMKLF\",\n      \"apiHost\": \"api-de9a3a97.duosecurity.com\",\n      \"redirectUri\": \"https://shekhar16-prepared-donkey.gluu.info/jans-auth/fl/callback\"\n    },\n    \"co.acme.password\": {}\n  },\n  \"name\": \"agama-duo\"\n}",
+					"configParams": "{\n      \"clientId\": \"DI1QCWC6TY96FLSPDEKE\",\n      \"clientSecret\": \"sPqo9w4BgBOJexIwJd105ZEzaLeoqEB2HaunMKLF\",\n      \"apiHost\": \"api-de9a3a97.duosecurity.com\",\n      \"redirectUri\": \"https://shekhar16-prepared-donkey.gluu.info/jans-auth/fl/callback\"\n}",
 					"nodeIcon": "material-symbols:line-start-square",
 					"timeout": "",
 					"inputs": "",
@@ -1521,8 +1521,8 @@
 		}
 	],
 	"viewport": {
-		"x": 51.243945381423146,
-		"y": 158.72102037309082,
-		"zoom": 0.8068877733976271
+		"x": 2,
+		"y": 106,
+		"zoom": 1
 	}
 }
