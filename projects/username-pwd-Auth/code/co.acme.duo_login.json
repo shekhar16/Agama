@@ -404,7 +404,7 @@
 				},
 				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"positionAbsolute": {
 				"x": 808.7995558936035,
 				"y": 469.07374028517256
@@ -946,7 +946,7 @@
 					"nodeIcon": "material-symbols:line-start-square",
 					"timeout": "",
 					"inputs": "",
-					"configs": "",
+					"configs": "conf",
 					"flowname": "co.acme.duo_login"
 				},
 				"skake": false
@@ -955,7 +955,7 @@
 				"x": 30,
 				"y": 30
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 30,
@@ -1521,8 +1521,8 @@
 		}
 	],
 	"viewport": {
-		"x": -446.6440285794689,
-		"y": 26.357341005260537,
+		"x": 43.355971420531205,
+		"y": 89.35734100526054,
 		"zoom": 0.8464467727751098
 	}
 }
