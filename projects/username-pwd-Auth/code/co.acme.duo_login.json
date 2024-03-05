@@ -942,7 +942,7 @@
 					"comment": "",
 					"isTopLevelFlow": true,
 					"basepath": "",
-					"configParams": "{}",
+					"configParams": "{\n    \"projectName\": \"agama-duo\",\n    \"description\": \"Open Authentication (OATH) defined Time-based Cisco Duo - Gluu Agama Plugin\",\n    \"type\": \"community\",\n    \"author\": \"GluuFederation\",\n    \"version\": \"1.0.0\",\n    \"authorWebsite\": \"https://github.com/GluuFederation/agama-duo\",\n    \"githubUri\": \"https://github.com/GluuFederation/agama-duo\",\n    \"license\": \"apache-2.0\",\n    \"lastUpdated\": \"1707898275883\",\n    \"tags\": [\n        \"jans\",\n        \"duo\",\n        \"2fa\"\n    ],\n    \"noDirectLaunch\": [\n        \"org.gluu.agama.totp.pw\",\n        \"org.gluu.agama.totp.enroll\"\n    ],\n    \"configs\": {        \n        \"co.acme.duo_login\": {\n            \"clientId\": \"DI1QCWC6TY96FLSPDEKE\",\n            \"clientSecret\": \"sPqo9w4BgBOJexIwJd105ZEzaLeoqEB2HaunMKLF\",\n            \"apiHost\": \"api-de9a3a97.duosecurity.com\",\n            \"redirectUri\": \"https://shekhar16-prepared-donkey.gluu.info/jans-auth/fl/callback\"\n        },\n        \"co.acme.password\": {}\n    },\n    \"name\": \"agama-duo\"\n}",
 					"nodeIcon": "material-symbols:line-start-square",
 					"timeout": "",
 					"inputs": "",
@@ -1521,8 +1521,8 @@
 		}
 	],
 	"viewport": {
-		"x": 43.355971420531205,
-		"y": 89.35734100526054,
-		"zoom": 0.8464467727751098
+		"x": -37.512581493883886,
+		"y": 276.7057060715709,
+		"zoom": 0.8849545876865823
 	}
 }
