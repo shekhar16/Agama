@@ -264,7 +264,7 @@
 				},
 				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 1408.7995558936036,
@@ -395,7 +395,7 @@
 							"assignedVariableName": "authUrl"
 						},
 						{
-							"variableTypeCheck": true,
+							"variableTypeCheck": false,
 							"assignmentExpression": "conf.clientId",
 							"assignedVariableName": "clientId"
 						}
@@ -404,7 +404,7 @@
 				},
 				"skake": false
 			},
-			"selected": false,
+			"selected": true,
 			"positionAbsolute": {
 				"x": 808.7995558936035,
 				"y": 469.07374028517256
@@ -1521,8 +1521,8 @@
 		}
 	],
 	"viewport": {
-		"x": -721.6457321303814,
-		"y": -67.99651719145459,
-		"zoom": 0.9511841413161729
+		"x": -446.6440285794689,
+		"y": 26.357341005260537,
+		"zoom": 0.8464467727751098
 	}
 }
