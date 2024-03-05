@@ -128,7 +128,11 @@
 						"creds.username"
 					],
 					"nodeIcon": "material-symbols:code",
-					"asssignedVariableName": "callbackState.data"
+					"asssignedVariableName": "callbackState.data",
+					"hasSuccess": "",
+					"hasFailure": "",
+					"hasNoRepeat": false,
+					"hasRepeat": false
 				},
 				"skake": false
 			},
@@ -956,7 +960,7 @@
 			"height": 140,
 			"id": "Agama-when-Node-3d31db81-5681-46b2-97c0-8bccbc4e11af",
 			"position": {
-				"x": 2558.7995558936036,
+				"x": 2408.7995558936036,
 				"y": 523.0737402851726
 			},
 			"parentId": "Agama-log-Node-9bab1408-a202-4359-8c8c-d4194cd159a2",
@@ -969,7 +973,7 @@
 				"inRepeatBlock": false,
 				"inIterateBlock": false,
 				"position": {
-					"x": 2558.7995558936036,
+					"x": 2408.7995558936036,
 					"y": 523.0737402851726
 				},
 				"agamaData": {
@@ -997,55 +1001,8 @@
 			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
-				"x": 2558.7995558936036,
+				"x": 2408.7995558936036,
 				"y": 523.0737402851726
-			}
-		},
-		{
-			"width": 170,
-			"height": 123,
-			"id": "Agama-assignment-Node-b5c58003-08df-4691-be0b-ad0a5ed0ae30",
-			"position": {
-				"x": 2181.7995558936036,
-				"y": 395.07374028517256
-			},
-			"type": "assignment",
-			"data": {
-				"id": "Agama-assignment-Node-b5c58003-08df-4691-be0b-ad0a5ed0ae30",
-				"type": "Agama-assignment-Node",
-				"parentId": "Agama-call-Node-d5212187-9fe5-460c-b55a-2f4a4d96695e",
-				"whenCondition": "WhenFalse",
-				"inRepeatBlock": false,
-				"inIterateBlock": false,
-				"position": {
-					"x": 2181.7995558936036,
-					"y": 395.07374028517256
-				},
-				"agamaData": {
-					"id": "Agama-assignment-Node-b5c58003-08df-4691-be0b-ad0a5ed0ae30",
-					"parentId": "Agama-call-Node-d5212187-9fe5-460c-b55a-2f4a4d96695e",
-					"type": "Agama-assignment-Node",
-					"displayName": "",
-					"hasComment": true,
-					"comment": "",
-					"whenCondition": "WhenFalse",
-					"inRepeatBlock": false,
-					"inIterateBlock": false,
-					"assignments": [
-						{
-							"variableTypeCheck": true,
-							"assignmentExpression": "conf.clientId",
-							"assignedVariableName": "clientId"
-						}
-					],
-					"nodeIcon": "material-symbols:equal"
-				}
-			},
-			"selected": true,
-			"dragging": false,
-			"positionAbsolute": {
-				"x": 2181.7995558936036,
-				"y": 395.07374028517256
 			}
 		},
 		{
@@ -1053,23 +1010,23 @@
 			"height": 123,
 			"id": "Agama-log-Node-9bab1408-a202-4359-8c8c-d4194cd159a2",
 			"position": {
-				"x": 2358.7995558936036,
+				"x": 2208.7995558936036,
 				"y": 469.07374028517256
 			},
 			"type": "log",
 			"data": {
 				"id": "Agama-log-Node-9bab1408-a202-4359-8c8c-d4194cd159a2",
 				"type": "Agama-log-Node",
-				"parentId": "Agama-assignment-Node-b5c58003-08df-4691-be0b-ad0a5ed0ae30",
+				"parentId": "Agama-call-Node-d5212187-9fe5-460c-b55a-2f4a4d96695e",
 				"whenCondition": "",
 				"inRepeatBlock": "",
 				"position": {
-					"x": 2358.7995558936036,
+					"x": 2208.7995558936036,
 					"y": 469.07374028517256
 				},
 				"agamaData": {
 					"id": "Agama-log-Node-9bab1408-a202-4359-8c8c-d4194cd159a2",
-					"parentId": "Agama-assignment-Node-b5c58003-08df-4691-be0b-ad0a5ed0ae30",
+					"parentId": "Agama-call-Node-d5212187-9fe5-460c-b55a-2f4a4d96695e",
 					"type": "Agama-log-Node",
 					"displayName": "log callbackState data",
 					"hasComment": true,
@@ -1089,7 +1046,7 @@
 			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
-				"x": 2358.7995558936036,
+				"x": 2208.7995558936036,
 				"y": 469.07374028517256
 			},
 			"parentId": "Agama-assignment-Node-b5c58003-08df-4691-be0b-ad0a5ed0ae30",
@@ -1548,6 +1505,12 @@
 				"color": "#fff",
 				"fillOpacity": 0.7
 			}
+		},
+		{
+			"id": "Agama-call-Node-d5212187-9fe5-460c-b55a-2f4a4d96695e-Agama-log-Node-9bab1408-a202-4359-8c8c-d4194cd159a2-d46cbdb7-ca76-4254-94b1-02a347788800",
+			"type": "straight",
+			"source": "Agama-call-Node-d5212187-9fe5-460c-b55a-2f4a4d96695e",
+			"target": "Agama-log-Node-9bab1408-a202-4359-8c8c-d4194cd159a2"
 		}
 	],
 	"viewport": {
