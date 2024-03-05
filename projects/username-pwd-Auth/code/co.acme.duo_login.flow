@@ -1,5 +1,6 @@
 Flow co.acme.duo_login
      Basepath ""
+     Configs conf
 authService = Call io.jans.as.server.service.AuthenticationService#class 
 // Create new cdiUtil object.
 cdiUtil = Call io.jans.service.cdi.util.CdiUtil#bean authService
@@ -25,10 +26,10 @@ Repeat 3 times max
           callbackState.data | calbackE = Call org.gluu.agama.duo.DuoClientService#validateCallback callbackResult creds.username
           Log "@info  callback data " callbackState.data calbackE
           When callbackState.data is not "false"
-               it_grawp = {success:true, data:  {userId: authResult.uid }}
-               Finish it_grawp
+               it_fajil = {success:true, data:  {userId: authResult.uid }}
+               Finish it_fajil
           Log "@info  when callbackState.data " callbackState.data
      // check logs after when condition
      Log "@info " post when log
-it_yhvar = {success:false, error: "auth failed"}
-Finish it_yhvar
+it_xhtef = {success:false, error: "auth failed"}
+Finish it_xhtef
