@@ -1,30 +1,25 @@
 {
-    "projectName": "agama-duo",
-    "description": "Open Authentication (OATH) defined Time-based Cisco Duo - Gluu Agama Plugin",
-    "type": "community",
-    "author": "GluuFederation",
-    "version": "1.0.0",
-    "authorWebsite": "https://github.com/GluuFederation/agama-duo",
-    "githubUri": "https://github.com/GluuFederation/agama-duo",
-    "license": "apache-2.0",
-    "lastUpdated": "1707898275883",
-    "tags": [
-        "jans",
-        "duo",
-        "2fa"
-    ],
-    "noDirectLaunch": [
-        "org.gluu.agama.totp.pw",
-        "org.gluu.agama.totp.enroll"
-    ],
-    "configs": {        
-        "co.acme.duo_login": {
-            "clientId": "DI1QCWC6TY96FLSPDEKE",
-            "clientSecret": "sPqo9w4BgBOJexIwJd105ZEzaLeoqEB2HaunMKLF",
-            "apiHost": "api-de9a3a97.duosecurity.com",
-            "redirectUri": "https://shekhar16-prepared-donkey.gluu.info/jans-auth/fl/callback"
+        "projectName": "username-pwd-Auth",
+        "description": "username password Auth",
+        "type": "community",
+        "author": "shekhar16",
+        "version": "0.0.1",
+        "authorWebsite": "https://github.com/shekhar16/Agama",
+        "githubUri": "https://github.com/shekhar16/Agama",
+        "license": "apache-2.0",
+        "lastUpdated": "1705137387207",
+        "tags": [
+            "openid-connect",
+            "jans"
+        ],
+        "noDirectLaunch": [],
+        "configs": {
+            "co.acme.duo_login": {
+                "clientId": "DI1QCWC6TY96FLSPDEKE",
+                "clientSecret": "sPqo9w4BgBOJexIwJd105ZEzaLeoqEB2HaunMKLF",
+                "apiHost": "api-de9a3a97.duosecurity.com",
+                "redirectUri": "https://shekhar16-prepared-donkey.gluu.info/jans-auth/fl/callback"
+            }
         },
-        "co.acme.password": {}
-    },
-    "name": "agama-duo"
-}
+        "name": "username-pwd-Auth"
+    }
