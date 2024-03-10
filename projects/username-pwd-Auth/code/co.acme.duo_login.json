@@ -395,22 +395,22 @@
 							"assignedVariableName": "authUrl"
 						},
 						{
-							"variableTypeCheck": true,
+							"variableTypeCheck": false,
 							"assignmentExpression": "conf.clientId",
 							"assignedVariableName": "clientId"
 						},
 						{
-							"variableTypeCheck": true,
+							"variableTypeCheck": false,
 							"assignmentExpression": "conf.clientSecret",
 							"assignedVariableName": "clientSecret"
 						},
 						{
-							"variableTypeCheck": true,
+							"variableTypeCheck": false,
 							"assignmentExpression": "conf.apiHost",
 							"assignedVariableName": "apiHost"
 						},
 						{
-							"variableTypeCheck": true,
+							"variableTypeCheck": false,
 							"assignmentExpression": "conf.redirectUri",
 							"assignedVariableName": "redirectUri"
 						}
