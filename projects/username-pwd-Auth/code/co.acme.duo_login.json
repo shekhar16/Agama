@@ -395,16 +395,31 @@
 							"assignedVariableName": "authUrl"
 						},
 						{
-							"variableTypeCheck": false,
+							"variableTypeCheck": true,
 							"assignmentExpression": "conf.clientId",
 							"assignedVariableName": "clientId"
+						},
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "conf.clientSecret",
+							"assignedVariableName": "clientSecret"
+						},
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "conf.apiHost",
+							"assignedVariableName": "apiHost"
+						},
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "conf.redirectUri",
+							"assignedVariableName": "redirectUri"
 						}
 					],
 					"nodeIcon": "material-symbols:equal"
 				},
 				"skake": false
 			},
-			"selected": false,
+			"selected": true,
 			"positionAbsolute": {
 				"x": 808.7995558936035,
 				"y": 469.07374028517256
@@ -955,7 +970,7 @@
 				"x": 30,
 				"y": 30
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 30,
@@ -1521,8 +1536,8 @@
 		}
 	],
 	"viewport": {
-		"x": 10,
-		"y": 15,
+		"x": -151,
+		"y": -236,
 		"zoom": 1
 	}
 }
